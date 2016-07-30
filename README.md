@@ -16,7 +16,7 @@ The ARM one was built on x86_64 using this command:
 Where slackwarearm-14.1 was created this way:
 
     # Get Slackware/ARM packages: 
-    wget -r -np http://ftp.arm.slackware.com/slackwarearm/slackwarearm-14.1/slackware/{a,ap,d,e,l,n,tcl}/ 
+    wget -r -np ftp://ftp.arm.slackware.com/slackwarearm/slackwarearm-14.1/slackware/{a,ap,d,e,l,n,tcl}/ 
     mkdir ~/rootfs/slackwarearm-14.1 
     
     # Extract only a minimal subset (ignore errors): 
